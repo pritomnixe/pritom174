@@ -11,9 +11,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'E-Commerce App',
+      title: 'Titan Event Management',
       theme: ThemeData(
-        primarySwatch: Colors.teal,
+        primarySwatch: Colors.purple,
+        scaffoldBackgroundColor: const Color(0xFFF7F2FA),
       ),
       home: const HomePage(),
       debugShowCheckedModeBanner: false,
