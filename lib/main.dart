@@ -11,13 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Titan Event Management',
-      theme: ThemeData(
-        primarySwatch: Colors.purple,
-        scaffoldBackgroundColor: const Color(0xFFF7F2FA),
-      ),
+      title: 'Menu',
+      theme: ThemeData(primarySwatch: Colors.deepOrange),
       home: const HomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
 }
+
